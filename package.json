@@ -20,11 +20,11 @@
         "Themes"
     ],
     "keywords": [
-        "Italic Comments",
-        "Dark Theme",
-        "Discreet",
-        "Syntax",
-        "Magna"
+        "italic comments",
+        "dark",
+        "discreet",
+        "syntax",
+        "magna"
     ],
     "scripts": {
         "publish": "vsce publish"
