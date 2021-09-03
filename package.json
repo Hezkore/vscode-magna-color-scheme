@@ -1,0 +1,55 @@
+{
+    "name": "magna-color-scheme",
+    "version": "1.0.0",
+    "publisher": "Hezkore",
+    "displayName": "Magna Color Scheme",
+    "description": "Distraction free, discreet, magna",
+    "homepage": "https://github.com/Hezkore/vscode-magna-color-scheme/#readme",
+    "bugs": {
+        "url": "https://github.com/Hezkore/vscode-magna-color-scheme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hezkore/vscode-magna-color-scheme.git"
+    },
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Italic Comments",
+        "Dark Theme",
+        "Discreet",
+        "Syntax",
+        "Magna"
+    ],
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Magna - Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue.json"
+            },
+            {
+                "label": "Magna - Red",
+                "uiTheme": "vs-dark",
+                "path": "./themes/red.json"
+            },
+            {
+                "label": "Magna - Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/green.json"
+            },
+            {
+                "label": "Magna - Orange",
+                "uiTheme": "vs-dark",
+                "path": "./themes/orange.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+	"tokenColors": [
+		
+		// Color
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#70AF89B0"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#70AF89",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#70AF89"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#70AF89"
+			}
+		},
+		{
+			"name": "Language constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#70AF89"
+			}
+		},
+		{
+			"name": "Meta",
+			"scope": "meta",
+			"settings": {
+				"foreground": "#70AF897E"
+			}
+		},
+		{
+			"name": "Keyword operator",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#70AF897E"
+			}
+		},
+		// Color ends here
+		
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#ffffff30",
+				"fontStyle": "italic"
+			}
+		},
+		
+		{
+			"name": "Variable",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#ffffff55"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffffffb7"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#ffffffb7"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#181818",
+		"editorWhitespace.foreground": "#ffffff15",
+		"editorCursor.foreground": "#ffffff70",
+		"editor.foreground": "#ffffff70",
+		"editor.lineHighlightBackground": "#ffffff07",
+		"editor.selectionBackground": "#ffffff30"
+	},
+	"name": "Magna"
+}
