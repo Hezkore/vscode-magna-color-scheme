@@ -4,6 +4,7 @@
     "publisher": "Hezkore",
     "displayName": "Magna Color Scheme",
     "description": "Distraction free, discreet, magna",
+    "icon": "media/icon.png",
     "homepage": "https://github.com/Hezkore/vscode-magna-color-scheme/#readme",
     "bugs": {
         "url": "https://github.com/Hezkore/vscode-magna-color-scheme/issues"
