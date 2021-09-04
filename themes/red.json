@@ -1,55 +1,48 @@
 {
+	"name": "Magna - Red",
 	"tokenColors": [
 		
-		// Color
+		// Color #CA5252
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#CA5252B0"
+				"foreground": "#CA5252"
 			}
 		},
 		{
-			"name": "Number",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#CA5252",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
+			"name": "Constant",
+			"scope": "constant",
 			"settings": {
 				"foreground": "#CA5252"
 			}
 		},
 		{
-			"name": "Storage type",
-			"scope": "storage.type",
+			"name": "Unit",
+			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#CA5252"
 			}
 		},
 		{
-			"name": "Language constant",
-			"scope": "constant.language",
+			"name": "Variable",
+			"scope": "variable",
 			"settings": {
-				"foreground": "#CA5252"
+				"foreground": "#CA5252c0"
 			}
 		},
 		{
-			"name": "Meta",
-			"scope": "meta",
+			"name": "Entity",
+			"scope": "entity",
 			"settings": {
-				"foreground": "#CA52527E"
+				"foreground": "#CA5252c0"
 			}
 		},
 		{
-			"name": "Keyword operator",
-			"scope": "keyword.operator",
+			"name": "Support",
+			"scope": "support",
 			"settings": {
-				"foreground": "#CA52527E"
+				"foreground": "#CA5252c0"
 			}
 		},
 		// Color ends here
@@ -58,16 +51,8 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#ffffff30",
+				"foreground": "#FFFFFF30",
 				"fontStyle": "italic"
-			}
-		},
-		
-		{
-			"name": "Variable",
-			"scope": "variable.other",
-			"settings": {
-				"foreground": "#ffffff55"
 			}
 		},
 		{
@@ -75,24 +60,23 @@
 			"scope": "invalid",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ffffffb7"
+				"foreground": "#FFFFFFB7"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#ffffffb7"
+				"foreground": "#FFFFFFB7"
 			}
 		}
 	],
 	"colors": {
-		"editor.background": "#181818",
-		"editorWhitespace.foreground": "#ffffff15",
-		"editorCursor.foreground": "#ffffff70",
-		"editor.foreground": "#ffffff70",
-		"editor.lineHighlightBackground": "#ffffff07",
-		"editor.selectionBackground": "#ffffff30"
-	},
-	"name": "Magna"
+		"editor.background": "#212122",
+		"editorWhitespace.foreground": "#FFFFFF15",
+		"editorCursor.foreground": "#FFFFFF80",
+		"editor.foreground": "#FFFFFF70",
+		"editor.lineHighlightBackground": "#FFFFFF07",
+		"editor.selectionBackground": "#FFFFFF30"
+	}
 }
